@@ -1,0 +1,21 @@
+{
+    "name": "nodestructure",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "env-cmd ./config/dev.env nodemon src/app.js -e js"
+    },
+    "author": "Emmanuel",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-validator": "^6.5.0",
+        "mongoose": "^5.9.15"
+    },
+    "devDependencies": {
+        "env-cmd": "^8.0.2",
+        "nodemon": "^2.0.4"
+    }
+}
